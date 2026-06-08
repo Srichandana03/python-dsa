@@ -1,9 +1,10 @@
 n=int(input())
 arr=[]
-total=0 '''use total instead of sum as sum is a built in function'''
+largest=0
 for i in range(n):
     num=int(input())
     arr.append(num)
 for i in arr:
-    total+=i
-print(sum)
+    if i>largest:
+        largest=i
+print(largest)
