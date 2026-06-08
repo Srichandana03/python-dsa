@@ -1,12 +1,12 @@
 n=int(input())
+
 arr=[]
 
 for i in range(n):
     num=int(input())
     arr.append(num)
-
-largest=arr[0]
+smallest=arr[0]
 for i in arr:
-    if i>largest:
-        largest=i
-print(largest)
+    if i<smallest:
+        smallest=i
+print(smallest)

@@ -1,6 +1,6 @@
 n=int(input())
 arr=[]
-total=0 '''use total instead of sum as sum is a built in function'''
+total=0 
 for i in range(n):
     num=int(input())
     arr.append(num)
